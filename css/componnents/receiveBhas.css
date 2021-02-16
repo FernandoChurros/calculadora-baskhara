@@ -1,8 +1,11 @@
 #receiveBhas {
-   width: 780px;
-   /* height: 480px; */
-   margin: auto;
+   text-align: center;
+   margin-top: 1rem;
 }
 #receiveBhas p {
-   margin-left: 1rem;
+   line-height: 2;
+}
+#receiveBhas .resultado {
+   color: #b600a1;
+   font-weight: bold;
 }
