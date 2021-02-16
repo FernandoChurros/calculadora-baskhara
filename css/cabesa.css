@@ -2,8 +2,14 @@
    align-items: center;
    display: flex;
    justify-content: space-between;
-   height: 60px;
+   height: 65px;
    margin: 0 2rem;
+}
+.cabesa__logo {
+   background-image: url("../assets/icons/6524.png");
+   background-size: cover;
+   width: 60px;
+   height: 60px;
 }
 .cabesa__anc {
    text-decoration: none;
