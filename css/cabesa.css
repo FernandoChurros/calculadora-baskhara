@@ -1,0 +1,14 @@
+.cabesa {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   height: 60px;
+   margin: 0 2rem;
+}
+.cabesa__anc {
+   text-decoration: none;
+   font-weight: bold;
+}
+.cabesa__anc:hover {
+   text-decoration: underline;
+}
