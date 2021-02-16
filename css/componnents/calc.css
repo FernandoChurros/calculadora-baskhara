@@ -1,0 +1,17 @@
+.calc {
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+}
+.calc__div {
+   text-align: center;
+}
+.calc__div input{
+   border: 1px solid #000;
+   border-radius: 10px;
+   width: 80px;
+   padding: 5px;
+}
+.__iden {
+   display: block;
+}

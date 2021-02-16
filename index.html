@@ -6,7 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Calculado de Bhaskara</title>
    <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/cabesa.css">
+   <link rel="stylesheet" href="css/conteiner.css">
+   <link rel="stylesheet" href="css/componnents/cabesa.css">
+   <link rel="stylesheet" href="css/componnents/calc.css">
+   <link rel="stylesheet" href="css/componnents/receiveBhas.css">
 </head>
 <body>
    <header class="cabesa">
@@ -15,5 +18,29 @@
       </a>
       <a class="cabesa__anc" href="">Outras Calculadoras</a>
    </header>
+   
+   <main>
+      <section class="conteiner">
+         <form class="calc">
+               <div class="calc__div">
+                  <label class="__iden" for="numA">Valor A</label>
+                  <input id="numA" type="text">
+               </div>
+               <div class="calc__div">
+                  <label class="__iden" for="numB">Valor B</label>
+                  <input id="numB" type="text">
+               </div>
+               <div class="calc__div">
+                  <label class="__iden" for="numC">Valor C</label>
+                  <input id="numC" type="text">
+               </div>
+            <button class="calc__button" type="button" onclick="">Calcular</button>
+         </form> <hr>
+
+         <div id="receiveBhas">
+
+         </div>
+      </section>
+   </main>
 </body>
 </html>
