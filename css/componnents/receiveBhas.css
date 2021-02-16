@@ -1,5 +1,8 @@
 #receiveBhas {
    width: 780px;
-   height: 480px;
+   /* height: 480px; */
    margin: auto;
+}
+#receiveBhas p {
+   margin-left: 1rem;
 }
